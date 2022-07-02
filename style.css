@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+.orange-color {
+  color: #f0810f;
+}
+
+#main-section {
+  color: white;
+  background-image: url(./img/bg-color.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+#our-section {
+  background-color: #011a27;
+  color: white;
+  min-height: 100vh;
+}
+.logo img {
+  width: auto;
+  max-width: 100%;
+  max-height: 80px;
+}
+
+#form-section {
+  background-image: url(/img/bg-img-2.jpg);
+  color: white;
+}
+a {
+  transition: 0.3s ease;
+}
+a:hover {
+  color: inherit;
+}
